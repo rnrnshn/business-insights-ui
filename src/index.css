@@ -17,13 +17,41 @@
   --stt-white: hsla(0, 0%, 100%, 0.6); /* slightly transparent white (stat headings) */
 }
 
+/* Reset */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Default styles */
 body {
   font-size: 15px;
   font-family: 'Lexend Deca', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: var(--v-dark-blue);
 }
 
 h1, h2, h3 {
   font-family: 'Inter', sans-serif;
+  color: var(--white);
+}
+
+p {
+  color: var(--st-white);
+}
+
+/* Card */
+.card {
+  background: var(--dark-d-blue);
+}
+
+/* Stats Container Text */
+.stats-title span {
+  color: var(--soft-violet);
+}
+
+.stats p {
+  color: var(--stt-white);
 }
