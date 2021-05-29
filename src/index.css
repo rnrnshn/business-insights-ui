@@ -42,6 +42,13 @@ p {
   color: var(--st-white);
 }
 
+/* Container */
+.container {
+  width: 100vw;
+  height: 100vh;
+  padding: 4rem 2rem;
+}
+
 /* Card */
 .card {
   background: var(--dark-d-blue);
