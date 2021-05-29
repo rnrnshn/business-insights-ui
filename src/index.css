@@ -1,13 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap');
+
+/* 
+  ### Colors ##
+  This are the colors used throught this project. 
+  This stylesheet is linked in the index.js file so 
+  that all the components can have acces to this file 
+  and its css rules.
+*/
+
+:root {
+  /* Primary */
+  --v-dark-blue: hsl(233, 47%, 7%); /* very dark blue (main background) */
+  --dark-d-blue: hsl(244, 38%, 16%); /* dark desaturated blue (card background)*/
+  --soft-violet: hsl(277, 64%, 61%); /* accent */
+
+  /* Neutral */
+  --white: hsl(0, 0%, 100%); /* main heading and stats*/
+  --st-white: hsla(0, 0%, 100%, 0.75); /* skightly transparent white (main paragraph)*/
+  --stt-white: hsla(0, 0%, 100%, 0.6); /* slightly transparent white (stat headings) */
+}
+
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-size: 15px;
+  font-family: 'Lexend Deca', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+h1, h2, h3 {
+  font-family: 'Inter', sans-serif;
 }
