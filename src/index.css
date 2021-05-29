@@ -25,7 +25,7 @@
 }
 
 /* Default styles */
-body {
+html, body {
   font-size: 15px;
   font-family: 'Lexend Deca', sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -44,6 +44,7 @@ p {
 
 img {
   width: 100%;
+  background: hsla(244, 38%, 16%, .6);
 }
 
 /* Container */
@@ -56,20 +57,41 @@ img {
 /* Card */
 .card {
   background: var(--dark-d-blue);
+  border-bottom-left-radius: .5rem;
+  border-bottom-right-radius: .5rem;
+}
+
+img, .card {
+  border-top-left-radius: .5rem;
+  border-top-right-radius: .5rem;
 }
 
 
 /* Card Stats */
 .card-stats {
-  padding: 2rem;
+  padding: 1.5rem;
   text-align: center;
 }
 
 /* Stats Container Text */
+.stats-title {
+  font-size: 2rem;
+  line-height: 1;
+  margin-bottom: 1rem;
+}
 .stats-title span {
   color: var(--soft-violet);
 }
 
+.stats-description {
+  line-height: 1.4;
+  margin-bottom: 1.5rem;
+}
+
+
+/* Stats */
 .stats p {
   color: var(--stt-white);
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
 }
