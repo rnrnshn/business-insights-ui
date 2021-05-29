@@ -42,6 +42,10 @@ p {
   color: var(--st-white);
 }
 
+img {
+  width: 100%;
+}
+
 /* Container */
 .container {
   width: 100vw;
