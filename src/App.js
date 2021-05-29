@@ -1,23 +1,45 @@
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <main className="container">
+        <section className="card">
+          <aside className="card-stats">
+            {/* Stats container for the text */}
+            <div className="stats-c-text">
+              <h1 className="stats-title">
+                Get <span>insights</span> that helps
+              your business grow.
+              </h1>
+              <p className="stats-description">
+                Discover the benefits of data analytics
+                and make better decisions regarding
+                revenue, customer expirience and overall
+                efficiency.
+              </p>
+            </div>
+            {/* Stats container for stats */}
+            <div className="stats-c-stats">
+              <aside className="stats">
+                <h2>10k+</h2>
+                <p>COMPANIES</p>
+              </aside>
+
+              <aside className="stats">
+                <h2>314</h2>
+                <p>TEMPLATES</p>
+              </aside>
+
+              <aside className="stats">
+                <h2>12M+</h2>
+                <p>QUERIES</p>
+              </aside>
+            </div>
+          </aside>
+          <aside className="card-image"></aside>
+        </section>
+      </main>
     </div>
   );
 }
