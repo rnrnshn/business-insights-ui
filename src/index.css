@@ -54,6 +54,13 @@ p {
   background: var(--dark-d-blue);
 }
 
+
+/* Card Stats */
+.card-stats {
+  padding: 2rem;
+  text-align: center;
+}
+
 /* Stats Container Text */
 .stats-title span {
   color: var(--soft-violet);
