@@ -4,14 +4,16 @@ This is a solution to the [Stats preview card component challenge on Frontend Me
 
 ## Table of contents
 
-- [Overview](#overview)
-  - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
-  - [Links](#links)
-- [My process](#my-process)
-  - [Built with](#built-with)
-  - [TODO](#TODO)
-- [Author](#author)
+- [Business Insight UI](#business-insight-ui)
+  - [Table of contents](#table-of-contents)
+  - [Overview](#overview)
+    - [The challenge](#the-challenge)
+    - [Screenshot](#screenshot)
+    - [Links](#links)
+  - [My process](#my-process)
+    - [Built with](#built-with)
+    - [TODO](#todo)
+  - [Author](#author)
 
 
 
@@ -49,7 +51,7 @@ Users should be able to:
 
 - [ ] Add what I learned on the README file
 - [ ] Add overlay on the image
-
+- [ ] Host the project on vercel
 
 
 ## Author
