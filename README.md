@@ -25,12 +25,8 @@ Users should be able to:
 
 ### Screenshot
 
-<<<<<<< HEAD
 ![Screenshot](/home/rnrnshn/Projects/frontendmentor/business-insight/design/screenshot.png)
 =======
-![](/home/rnrnshn/Projects/frontendmentor/business-insight/design/screenshot.png)
->>>>>>> 6e6dece0ed6af61cdad1536a28586b60f0331884
-
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
