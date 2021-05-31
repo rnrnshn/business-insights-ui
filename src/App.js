@@ -5,9 +5,7 @@ function App() {
     <div className="App">
       <main className="container">
         <section className="card">
-          <aside className="card-image">
-            <Image />
-          </aside>
+          <Image />
           <aside className="card-stats">
             {/* Stats container for the text */}
             <div className="stats-c-text">
