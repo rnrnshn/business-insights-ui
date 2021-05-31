@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap');
 
-/* 
+/*
   ### Colors ##
-  This are the colors used throught this project. 
+  This are the colors used throught this project.
 */
 
 :root {
@@ -95,7 +95,7 @@ img, .card {
 }
 
 @media (min-width: 600px) {
-  
+
   .container {
     width: 100vw;
     height: 100vh;
@@ -117,7 +117,7 @@ img, .card {
     padding: 4rem;
     text-align: unset;
   }
-  
+
   .stats-title {
     font-size: 2.5rem;
     margin-bottom: 2rem;
