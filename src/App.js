@@ -1,4 +1,4 @@
-import Image from './Image'
+import Image from "./Image";
 
 function App() {
   return (
@@ -10,13 +10,11 @@ function App() {
             {/* Stats container for the text */}
             <div className="stats-c-text">
               <h1 className="stats-title">
-                Get <span>insights</span> that helps
-              your business grow.
+                Get <span>insights</span> that helps your business grow.
               </h1>
               <p className="stats-description">
-                Discover the benefits of data analytics
-  and make better decisions regarding
-  revenue, customer expirience and overall
+                Discover the benefits of data analytics and make better
+                decisions regarding revenue, customer expirience and overall
                 efficiency.
               </p>
             </div>

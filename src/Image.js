@@ -1,13 +1,12 @@
-import largeImage from './images/image-header-desktop.jpg';
-import smallImage from './images/image-header-mobile.jpg';
+import largeImage from "./images/image-header-desktop.jpg";
+import smallImage from "./images/image-header-mobile.jpg";
 
-const Image =
-    () => {
-      const mobile = smallImage;
-      const desktop = largeImage;
+const Image = () => {
+  const mobile = smallImage;
+  const desktop = largeImage;
   return (
     <img
-  className = "card-image"
+      className="card-image"
       srcSet={`
         ${mobile} 2x,
         ${desktop} 1x
@@ -15,7 +14,7 @@ const Image =
       src={mobile}
       alt="Business Insights"
     />
-  )
-    }
+  );
+};
 
 export default Image;
