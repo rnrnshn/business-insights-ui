@@ -49,8 +49,6 @@ img {
 
 /* Container */
 .container {
-  width: 100vw;
-  height: 100vh;
   padding: 4rem 2rem;
 }
 
