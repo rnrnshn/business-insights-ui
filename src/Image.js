@@ -7,6 +7,7 @@ const Image = () => {
   const desktop = largeImage;
   return (
     <img
+      className="card-image"
       srcSet={`
         ${mobile} 2x,
         ${desktop} 1x

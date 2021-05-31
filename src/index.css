@@ -49,8 +49,6 @@ img {
 
 /* Container */
 .container {
-  width: 100vw;
-  height: 100vh;
   padding: 4rem 2rem;
 }
 
@@ -93,5 +91,44 @@ img, .card {
 .stats p {
   color: var(--stt-white);
   line-height: 1.6;
-  margin-bottom: 1.5rem;
+  /* margin-bottom: 1.5rem; */
+}
+
+@media (min-width: 600px) {
+  
+  .container {
+    width: 100vw;
+    height: 100vh;
+    padding: unset;
+    display: grid;
+    place-items: center;
+  }
+
+  .card {
+    width: 65em;
+    display: flex;
+  }
+
+  .card-image {
+    order: 1;
+  }
+
+  .card-stats {
+    padding: 4rem;
+    text-align: unset;
+  }
+  
+  .stats-title {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+  }
+
+  .stats-c-stats {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .stats-description {
+    margin-bottom: 4rem;
+  }
 }
