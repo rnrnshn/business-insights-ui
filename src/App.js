@@ -15,8 +15,8 @@ function App() {
               </h1>
               <p className="stats-description">
                 Discover the benefits of data analytics
-                and make better decisions regarding
-                revenue, customer expirience and overall
+  and make better decisions regarding
+  revenue, customer expirience and overall
                 efficiency.
               </p>
             </div>
